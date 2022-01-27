@@ -24,7 +24,7 @@ public class Doliny {
                 if (array[j] < array[j-1] && array[j] < array[j + 1])
                     vpadyny.add(new VershinyVpadyny(false,j));
             }
-            System.out.print(VershinyVpadyny.vysochaichiy + " " + VershinyVpadyny.glubineyshiy);
+            System.out.println(VershinyVpadyny.vysochaichiy + " " + VershinyVpadyny.glubineyshiy);
         }
     }
     static class VershinyVpadyny {
